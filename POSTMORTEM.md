@@ -17,7 +17,8 @@ Este documento tem como finalidade mostrar os pontos positivos e negativos sobre
 - Conciliar três disciplica com o Projeto de Analise e Desenvolvimento.
 
 #### Aprendizado
-- Conseguir planejar a rotina que será feita antes de iniciar um projeto pode facilitar o gerenciamento do tempo;
+- Conseguir planejar a rotina que será feita no decorrer do projeto, antes de iniciar, pode facilitar o gerenciamento do tempo;
 - Iniciar o projeto com uma ideia interessante que motive o desenvolvimento pode tornar a experiência mais agradável e menos maçante, além de poupar tempo no início da execução do projeto;
-- Iniciar o projeto com foco em novas tecnologias apesar de ter atrasado o desenvolvimento foi motivador;
-- Teria sido mais simples administrar o tempo com menos disciplinas feitas em conjunto com o Projeto de Analise e Desenvolvimento.
+- Iniciar o projeto com foco em novas tecnologias, apesar de ter atrasado o desenvolvimento foi motivador;
+- Teria sido mais simples administrar o tempo com menos disciplinas feitas em conjunto com o Projeto de Analise e Desenvolvimento;
+- Idealização de Frontend é uma coisa que vou precisar desenvolver como profissional, foi um grande bloquei no projeto.
