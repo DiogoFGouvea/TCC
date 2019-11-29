@@ -5,7 +5,7 @@
 
 
 <h1 align="center">
-    <img alt="GoStack" src="mvc.png" width="600px" />
+    <img alt="GoStack" src="mvc.png" width="500px" />
 </h1>
 
 
@@ -13,7 +13,7 @@
 
 
 <h1 align="center">
-<img alt="GoStack" src="arquitetura2.png" width="600px" />
+<img alt="GoStack" src="arquitetura2.png" width="800px" />
 </h1>
 
 
