@@ -24,5 +24,4 @@
 ### Requisitos para execução
 - [Node v10.16.0](https://nodejs.org/dist/v10.16.0/)
 - [Yarn 1.16.0](https://yarnpkg.com/lang/en/docs/install/#windows-stable)
-
-<font style='font-style:italic;'> * Esses requisitos foram os utilizados no projeto, possívelmente funcionara em versões superiores </font>
+  *Esses requisitos foram os utilizados no projeto, possívelmente vai funcionar em versões superiores*
