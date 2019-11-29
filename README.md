@@ -7,11 +7,11 @@
 
 ### [Documentação das tarefas](https://trello.com/b/mVidSGPW/tcc)
 
-### [Componentes reutilizados(demo)](https://marmelab.com/react-admin-demo/#/)
+### [Componentes reutilizados(ReactAdmin - Demo)](https://marmelab.com/react-admin-demo/#/)
 
 ### [PostMortem](POSTMORTEM.md)
 
-### [Git Lincah Frontend](https://github.com/DiogoFGouvea/lincah-frontend)
+### [Lincah Frontend Git](https://github.com/DiogoFGouvea/lincah-frontend)
 
 ### [Arquitetura](arquitetura.md)
 
