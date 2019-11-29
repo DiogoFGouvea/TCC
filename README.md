@@ -7,4 +7,4 @@ TCC
 
 ## [Documentação das tarefas](https://trello.com/b/mVidSGPW/tcc)
 
-## [Componentes reutilizados(DEMO)](https://marmelab.com/react-admin-demo/#/)
+## [Componentes reutilizados(demo)](https://marmelab.com/react-admin-demo/#/)
