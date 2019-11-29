@@ -8,3 +8,5 @@ TCC
 ## [Documentação das tarefas](https://trello.com/b/mVidSGPW/tcc)
 
 ## [Componentes reutilizados(demo)](https://marmelab.com/react-admin-demo/#/)
+
+## [PostMortem](POSTMORTEM.md)
