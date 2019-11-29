@@ -10,3 +10,10 @@
 ### [Componentes reutilizados(demo)](https://marmelab.com/react-admin-demo/#/)
 
 ### [PostMortem](POSTMORTEM.md)
+
+## Instalação e execução
+
+1. Faça um clone desse repositório;
+2. Entre na pasta rodando `cd lincah-backend`;
+3. Rode `yarn` para instalar as dependências;
+4. Rode `yarn dev` para iniciar o backend da aplicação.
