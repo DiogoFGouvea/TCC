@@ -1,0 +1,181 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "_id",
+    "id",
+    "userstory",
+    "tarefaid",
+    "nome",
+    "Status",
+    "estimada",
+    "feita",
+    "necessaria",
+    "__v"
+  ],
+  "properties": {
+    "_id": {
+      "$id": "#/properties/_id",
+      "type": "object",
+      "title": "The _id Schema",
+      "required": [
+        "$oid"
+      ],
+      "properties": {
+        "$oid": {
+          "$id": "#/properties/_id/properties/$oid",
+          "type": "string",
+          "title": "The $oid Schema",
+          "default": "",
+          "examples": [
+            "5da025152af183311c457477"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "id": {
+      "$id": "#/properties/id",
+      "type": "string",
+      "title": "The Id Schema",
+      "default": "",
+      "examples": [
+        "1"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "userstory": {
+      "$id": "#/properties/userstory",
+      "type": "object",
+      "title": "The Userstory Schema",
+      "required": [
+        "$oid"
+      ],
+      "properties": {
+        "$oid": {
+          "$id": "#/properties/userstory/properties/$oid",
+          "type": "string",
+          "title": "The $oid Schema",
+          "default": "",
+          "examples": [
+            "5d9eaed230ba6d1c3c90d248"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "tarefaid": {
+      "$id": "#/properties/tarefaid",
+      "type": "string",
+      "title": "The Tarefaid Schema",
+      "default": "",
+      "examples": [
+        "TA001"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "nome": {
+      "$id": "#/properties/nome",
+      "type": "string",
+      "title": "The Nome Schema",
+      "default": "",
+      "examples": [
+        "Dev"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "Status": {
+      "$id": "#/properties/Status",
+      "type": "string",
+      "title": "The Status Schema",
+      "default": "",
+      "examples": [
+        "P"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "estimada": {
+      "$id": "#/properties/estimada",
+      "type": "object",
+      "title": "The Estimada Schema",
+      "required": [
+        "$numberInt"
+      ],
+      "properties": {
+        "$numberInt": {
+          "$id": "#/properties/estimada/properties/$numberInt",
+          "type": "string",
+          "title": "The $numberint Schema",
+          "default": "",
+          "examples": [
+            "8"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "feita": {
+      "$id": "#/properties/feita",
+      "type": "object",
+      "title": "The Feita Schema",
+      "required": [
+        "$numberInt"
+      ],
+      "properties": {
+        "$numberInt": {
+          "$id": "#/properties/feita/properties/$numberInt",
+          "type": "string",
+          "title": "The $numberint Schema",
+          "default": "",
+          "examples": [
+            "4"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "necessaria": {
+      "$id": "#/properties/necessaria",
+      "type": "object",
+      "title": "The Necessaria Schema",
+      "required": [
+        "$numberInt"
+      ],
+      "properties": {
+        "$numberInt": {
+          "$id": "#/properties/necessaria/properties/$numberInt",
+          "type": "string",
+          "title": "The $numberint Schema",
+          "default": "",
+          "examples": [
+            "4"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "__v": {
+      "$id": "#/properties/__v",
+      "type": "object",
+      "title": "The __v Schema",
+      "required": [
+        "$numberInt"
+      ],
+      "properties": {
+        "$numberInt": {
+          "$id": "#/properties/__v/properties/$numberInt",
+          "type": "string",
+          "title": "The $numberint Schema",
+          "default": "",
+          "examples": [
+            "0"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    }
+  }
+}

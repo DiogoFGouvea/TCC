@@ -1,0 +1,150 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "_id",
+    "id",
+    "feature",
+    "userstoryid",
+    "nome",
+    "descricao",
+    "pontuacao",
+    "status",
+    "__v"
+  ],
+  "properties": {
+    "_id": {
+      "$id": "#/properties/_id",
+      "type": "object",
+      "title": "The _id Schema",
+      "required": [
+        "$oid"
+      ],
+      "properties": {
+        "$oid": {
+          "$id": "#/properties/_id/properties/$oid",
+          "type": "string",
+          "title": "The $oid Schema",
+          "default": "",
+          "examples": [
+            "5d9eaed230ba6d1c3c90d248"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "id": {
+      "$id": "#/properties/id",
+      "type": "string",
+      "title": "The Id Schema",
+      "default": "",
+      "examples": [
+        "1"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "feature": {
+      "$id": "#/properties/feature",
+      "type": "object",
+      "title": "The Feature Schema",
+      "required": [
+        "$oid"
+      ],
+      "properties": {
+        "$oid": {
+          "$id": "#/properties/feature/properties/$oid",
+          "type": "string",
+          "title": "The $oid Schema",
+          "default": "",
+          "examples": [
+            "5d9e816c746803053044e283"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "userstoryid": {
+      "$id": "#/properties/userstoryid",
+      "type": "string",
+      "title": "The Userstoryid Schema",
+      "default": "",
+      "examples": [
+        "US0001"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "nome": {
+      "$id": "#/properties/nome",
+      "type": "string",
+      "title": "The Nome Schema",
+      "default": "",
+      "examples": [
+        "Primeira História do Lincah"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "descricao": {
+      "$id": "#/properties/descricao",
+      "type": "string",
+      "title": "The Descricao Schema",
+      "default": "",
+      "examples": [
+        "Descriação da primeira história do Lincah"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "pontuacao": {
+      "$id": "#/properties/pontuacao",
+      "type": "object",
+      "title": "The Pontuacao Schema",
+      "required": [
+        "$numberInt"
+      ],
+      "properties": {
+        "$numberInt": {
+          "$id": "#/properties/pontuacao/properties/$numberInt",
+          "type": "string",
+          "title": "The $numberint Schema",
+          "default": "",
+          "examples": [
+            "3"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "status": {
+      "$id": "#/properties/status",
+      "type": "string",
+      "title": "The Status Schema",
+      "default": "",
+      "examples": [
+        "progresso"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "__v": {
+      "$id": "#/properties/__v",
+      "type": "object",
+      "title": "The __v Schema",
+      "required": [
+        "$numberInt"
+      ],
+      "properties": {
+        "$numberInt": {
+          "$id": "#/properties/__v/properties/$numberInt",
+          "type": "string",
+          "title": "The $numberint Schema",
+          "default": "",
+          "examples": [
+            "0"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    }
+  }
+}
