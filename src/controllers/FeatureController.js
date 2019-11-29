@@ -13,8 +13,8 @@ module.exports = {
                 featureId,
                 nome,
                 descricao
-            });            
-            return res.json(feature);   
+            });             
+            return res.json(feature);
         } else {
             return res.status(400).json({ error: 'Feature já existe' });           
         }        
@@ -22,9 +22,12 @@ module.exports = {
     
     async show(req, res){
         
-        const features = await Feature.find();
+        const features = await Feature.find();           
 
-        return res.json(features); 
+        res.setHeader('Access-Control-Expose-Headers', 'Content-Range');
+        res.setHeader('Content-Range', 'features 0-24/319');        
+        res.setHeader('X-Total-Count', 5);
+        return res.json(features);
     }
     
 };
