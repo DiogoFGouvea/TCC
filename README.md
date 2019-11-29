@@ -20,3 +20,7 @@
 2. Entre na pasta rodando `cd lincah-backend`;
 3. Rode `yarn` para instalar as dependências;
 4. Rode `yarn dev` para iniciar o backend da aplicação.
+
+### Requisitos para execução
+- Node(https://nodejs.org/en/download/) v10.16.0
+- Yarn(https://yarnpkg.com/lang/en/docs/install/#windows-stable) 1.16.0
