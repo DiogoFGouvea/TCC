@@ -20,4 +20,4 @@ Este documento tem como finalidade mostrar os pontos positivos e negativos sobre
 - Conseguir planejar a rotina que será feita antes de iniciar um projeto pode facilitar o gerenciamento do tempo;
 - Iniciar o projeto com uma ideia interessante que motive o desenvolvimento pode tornar a experiência mais agradável e menos maçante, além de poupar tempo no início da execução do projeto;
 - Iniciar o projeto com foco em novas tecnologias apesar de ter atrasado o desenvolvimento foi motivador;
-- Teria sido mais simples administrar o tempo com menos cadeitas.
+- Teria sido mais simples administrar o tempo com menos disciplinas feitas em conjunto com o Projeto de Analise e Desenvolvimento.
