@@ -11,7 +11,7 @@
 
 ### [PostMortem](POSTMORTEM.md)
 
-## Instalação e execução
+### Instalação e execução
 
 1. Faça um clone desse repositório;
 2. Entre na pasta rodando `cd lincah-backend`;
