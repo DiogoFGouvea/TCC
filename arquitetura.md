@@ -20,4 +20,4 @@
 
 ##### Neste modelo exemplificado na imagem, as camadas de Model e Controller estão abstraidas como Business Logic, mas mesmo nesse modelo essa separação continuará existindo.
 
-###### [View atual - Lincah Frontend]((https://github.com/DiogoFGouvea/lincah-frontend))
+###### [View atual - Lincah Frontend](https://github.com/DiogoFGouvea/lincah-frontend)
