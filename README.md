@@ -13,6 +13,8 @@
 
 ### [Git Lincah Frontend](https://github.com/DiogoFGouvea/lincah-frontend)
 
+### [Arquitetura](arquitetura.md)
+
 
 ### Instalação e execução
 
