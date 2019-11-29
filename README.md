@@ -1,4 +1,4 @@
-# lincah-backend
+# Lincah Backend
 ##### Projeto de Análise e Desenvolvimento
 
 ### [Análise de Projetos Correlatos](TabelaComparativa.png)
@@ -11,7 +11,7 @@
 
 ### [PostMortem](POSTMORTEM.md)
 
-### [Git Frontend](https://github.com/DiogoFGouvea/lincah-frontend)
+### [Git Lincah Frontend](https://github.com/DiogoFGouvea/lincah-frontend)
 
 
 ### Instalação e execução
