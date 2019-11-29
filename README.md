@@ -1,5 +1,5 @@
 # lincah-backend
-TCC
+##### Projeto de Análise e Desenvolvimento
 
 ### [Análise de Projetos Correlatos](TabelaComparativa.png)
 
