@@ -3,4 +3,4 @@ TCC
 
 ## [Análise de Projetos Correlatos](TabelaComparativa.png)
 
-## [Json Schema](src/models/)
+## [Json Schema](JsonSchema)
