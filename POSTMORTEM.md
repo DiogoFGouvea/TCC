@@ -5,7 +5,8 @@ Este documento tem como finalidade mostrar os pontos positivos e negativos sobre
 #### Pontos Positivos
 - Evolução técnica;
 - Resultados melhores em relação a experiências anteriores com tecnologias desconhecidas;
-- Boa primeira experiencia com reutilização de componentes de terceiros (ReactAdmin).
+- Boa primeira experiencia com reutilização de componentes de terceiros (ReactAdmin);
+- Documentação WEB.
 
 #### Pontos Negativos
 - Dificuldade no gerenciamento do tempo entre disciplinas e trabalho;
