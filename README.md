@@ -11,6 +11,8 @@
 
 ### [PostMortem](POSTMORTEM.md)
 
+### [Git Frontend](https://github.com/DiogoFGouvea/lincah-frontend)
+
 ### Instalação e execução
 
 1. Faça um clone desse repositório;
