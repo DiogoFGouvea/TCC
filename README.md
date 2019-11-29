@@ -22,5 +22,5 @@
 4. Rode `yarn dev` para iniciar o backend da aplicação.
 
 ### Requisitos para execução
-- Node(https://nodejs.org/en/download/) v10.16.0
-- Yarn(https://yarnpkg.com/lang/en/docs/install/#windows-stable) 1.16.0
+- [Node v10.16.0](https://nodejs.org/en/download/) 
+- [Yarn 1.16.0](https://yarnpkg.com/lang/en/docs/install/#windows-stable) 
