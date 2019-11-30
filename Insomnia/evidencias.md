@@ -29,13 +29,13 @@
 ###### Cenário de erro Cadastro de História de usuário:
 
 <h1 align="center"> 
-    <img alt="GoStack" src="Insomnia – Store Erro US.jpg" width="500px" />
+    <img alt="Insomnia" src="Insomnia – Store Erro US.jpg" width="500px" />
 </h1>
 
 ###### Listagem de História de usuário correspondente a Feature específica:
 
 <h1 align="center"> 
-    <img alt="GoStack" src="Insomnia – index US from Feature.jpg" width="500px" />
+    <img alt="Insomnia" src="Insomnia – index US from Feature.jpg" width="500px" />
 </h1>
 
 ###### Cadastro de Tarefa:
@@ -44,8 +44,8 @@
     <img alt="GoStack" src="Insomnia – Store Tarefa.jpg" width="500px" />
 </h1>
 
-###### Cadastro de Tarefa:
+###### Listagem de Tarefas correspondente a História de usuário específica:
 
 <h1 align="center"> 
-    <img alt="GoStack" src="Insomnia – Store Tarefa.jpg" width="500px" />
+    <img alt="GoStack" src="Insomnia – Show tarefa US.jpg" width="500px" />
 </h1>
