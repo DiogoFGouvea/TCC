@@ -5,25 +5,25 @@
 ###### Cadastro de Feature:
 
 <h1 align="center"> 
-    <img alt="GoStack" src="Insomnia – Store Feature.jpg" width="500px" />
+    <img alt="Insomnia" src="Insomnia – Store Feature.jpg" width="500px" />
 </h1>
 
 ###### Cenário de Erro no cadastro de Feature:
 
 <h1 align="center"> 
-    <img alt="GoStack" src="Insomnia – Store Erro Feature.jpg" width="500px" />
+    <img alt="Insomnia" src="Insomnia – Store Erro Feature.jpg" width="500px" />
 </h1>
 
 ###### Listagem de Features:
 
 <h1 align="center"> 
-    <img alt="GoStack" src="Insomnia – Show Feature.jpg" width="500px" />
+    <img alt="Insomnia" src="Insomnia – Show Feature.jpg" width="500px" />
 </h1>
 
 ###### Cadastro de História de usuário:
 
 <h1 align="center"> 
-    <img alt="GoStack" src="Insomnia – Store US.jpg" width="500px" />
+    <img alt="Insomnia" src="Insomnia – Store US.jpg" width="500px" />
 </h1>
 
 ###### Cenário de erro Cadastro de História de usuário:
@@ -41,11 +41,11 @@
 ###### Cadastro de Tarefa:
 
 <h1 align="center"> 
-    <img alt="GoStack" src="Insomnia – Store Tarefa.jpg" width="500px" />
+    <img alt="Insomnia" src="Insomnia – Store Tarefa.jpg" width="500px" />
 </h1>
 
 ###### Listagem de Tarefas correspondente a História de usuário específica:
 
 <h1 align="center"> 
-    <img alt="GoStack" src="Insomnia – Show tarefa US.jpg" width="500px" />
+    <img alt="Insomnia" src="Insomnia – Show tarefa US.jpg" width="500px" />
 </h1>
