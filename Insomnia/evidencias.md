@@ -5,7 +5,7 @@
 ###### Cadastro de Feature:
 
 <h1 align="center"> 
-    <img alt="Insomnia" src="Insomnia – Store Feature.jpg" width="500px" />
+    <img alt="Insomnia" src="Insomnia – Store Feature.jpg" width="800px" />
 </h1>
 
 ###### Cenário de Erro no cadastro de Feature:
