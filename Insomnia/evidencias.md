@@ -44,9 +44,8 @@
     <img alt="GoStack" src="Insomnia – Store Tarefa.jpg" width="500px" />
 </h1>
 
-###### Listagem de Tarefas correspondente a História de usuário específica:
+###### Cadastro de Tarefa:
 
 <h1 align="center"> 
-    <img alt="GoStack" src="Insomnia – Show tarefa from US.jpg" width="500px" />
+    <img alt="GoStack" src="Insomnia – Store Tarefa.jpg" width="500px" />
 </h1>
-
