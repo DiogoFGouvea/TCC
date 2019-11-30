@@ -43,3 +43,9 @@
 <h1 align="center"> 
     <img alt="Insomnia" src="Insomnia – Store Tarefa.jpg" width="500px" />
 </h1>
+
+###### Listagem de Tarefas correspondente a História de usuário específica:
+
+<h1 align="center"> 
+    <img alt="Insomnia" src="Insomnia – index US from Feature.jpg" width="500px" />
+</h1>
