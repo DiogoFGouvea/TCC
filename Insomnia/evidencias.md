@@ -26,6 +26,12 @@
     <img alt="GoStack" src="Insomnia – Store US.jpg" width="500px" />
 </h1>
 
+###### Cenário de erro Cadastro de História de usuário:
+
+<h1 align="center"> 
+    <img alt="GoStack" src="Insomnia – Store Erro US.jpg" width="500px" />
+</h1>
+
 ###### Listagem de História de usuário correspondente a Feature específica:
 
 <h1 align="center"> 
@@ -43,3 +49,4 @@
 <h1 align="center"> 
     <img alt="GoStack" src="Insomnia – Show tarefa from US.jpg" width="500px" />
 </h1>
+
