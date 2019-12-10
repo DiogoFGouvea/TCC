@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
+const AutoIncrementTarefa = require('mongoose-sequence')(mongoose);
 
 const TarefaSchema = new mongoose.Schema({
+    idta: Number,
     tarefaid: String,
     nome: String,
     Status: String,
@@ -12,5 +14,7 @@ const TarefaSchema = new mongoose.Schema({
         ref: 'UserStory' 
     }
 });
+
+TarefaSchema.plugin(AutoIncrementTarefa, {inc_field: 'idta'});
 
 module.exports = mongoose.model('Tarefa', TarefaSchema)

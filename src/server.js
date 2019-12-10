@@ -7,7 +7,8 @@ const app = express();
 
 mongoose.connect('mongodb+srv://dgouvea:dgouvea@cluster01-g36ux.mongodb.net/lincah?retryWrites=true&w=majority',{
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
+    useCreateIndex: true
 });
 
 app.use(cors());
