@@ -16,7 +16,7 @@ module.exports = {
         const { feature_id, nome, descricao, pontuacao, status } = req.body;        
 
         const userstory = await UserStory.create({
-            feature: feature_id,
+            feature_id,
             nome,
             descricao,
             pontuacao,
@@ -60,17 +60,14 @@ module.exports = {
     },
     async updateOne(req, res){
 
-        const { id } = req.params;
-        const { userstoryid, nome, descricao, pontuacao, status } = req.body;
-        const { feature_id } = req.headers;
+        const { id, feature_id, nome, descricao, pontuacao, status } = req.body;        
         
         UserStory.findOne({ id }, function(err, userstory){
             if(err){
                 console.log(err);
                 res.status(500).send();
             } else {                                
-                userstory.feature = feature_id
-                userstory.userstoryid = userstoryid
+                userstory.feature_id = feature_id
                 userstory.nome = nome
                 userstory.descricao = descricao 
                 userstory.pontuacao = pontuacao
