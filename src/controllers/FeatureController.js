@@ -4,13 +4,12 @@ module.exports = {
 
     async store(req, res){  
         
-        const { featureId, nome, descricao } = req.body;
+        const { id, nome, descricao } = req.body;
 
-        let feature = await Feature.findOne({ featureId });
+        let feature = await Feature.findOne({ id });
 
         if (!feature) {                        
-            const feature = await Feature.create({                
-                featureId,
+            const feature = await Feature.create({                                
                 nome,
                 descricao
             });                         
@@ -43,14 +42,13 @@ module.exports = {
     async updateOne(req, res){
 
         const { id } = req.params;
-        const { featureId, nome, descricao } = req.body;
+        const { nome, descricao } = req.body;
         
         Feature.findOne({ id }, function(err, feature){
             if(err){
                 console.log(err);
                 res.status(500).send();
-            } else {
-                feature.featureId = featureId;
+            } else {                
                 feature.nome = nome;
                 feature.descricao = descricao;
             }

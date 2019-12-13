@@ -11,6 +11,8 @@ mongoose.connect('mongodb+srv://dgouvea:dgouvea@cluster01-g36ux.mongodb.net/linc
     useCreateIndex: true
 });
 
+
+
 app.use(cors());
 app.use(express.json());
 app.use(routes);

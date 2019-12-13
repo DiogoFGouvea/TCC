@@ -12,35 +12,31 @@ module.exports = {
     },
     
     async store(req, res){
-        
-        const { userstoryid, nome, descricao, pontuacao, status } = req.body;
-        const { feature_id } = req.headers;
 
-        const feature = await Feature.findById(feature_id);
+        const { feature_id, nome, descricao, pontuacao, status } = req.body;        
 
-        if (!feature) {
-            return res.status(400).json({ error: 'Feature não existe' });
-        }
+        const userstory = await UserStory.create({
+            feature: feature_id,
+            nome,
+            descricao,
+            pontuacao,
+            status            
+        });
 
-        let userstory = await UserStory.findOne({ userstoryid });
-
-        if (!userstory) {
-            const userstory = await UserStory.create({
-                feature: feature_id,
-                userstoryid,
-                nome,
-                descricao,
-                pontuacao,
-                status
+        UserStory.findOne({ idus: userstory.idus }, function(err, us){
+            if(err){
+                console.log(err);
+            } else {                                
+                us.id = userstory.idus
+            }
+            us.save(function(err, updateObject){
+                if(err){
+                    console.log(err);                    
+                }else{
+                    return res.json(updateObject);            
+                }
             });
-            
-            await userstory.populate('feature').execPopulate();
-
-            return res.json(userstory)            
-        } else {
-            return res.status(400).json({ error: 'User Story já existe' });           
-        }              
-        
+        });
     },
     async show(req, res){
         const userstory = await UserStory.find();           

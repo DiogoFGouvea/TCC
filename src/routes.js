@@ -14,16 +14,16 @@ routes.delete("/features/:id", FeatureController.deleteOne);
 
 routes.post("/userstorys", UserStoryController.store);
 routes.get("/userstorys", UserStoryController.show);
-routes.get("/userstorys/feature/:id", UserStoryController.indexFeature);
-routes.get("/userstorys/userstory/:id", UserStoryController.showOne);
+routes.get("/userstorys/:id", UserStoryController.showOne);
 routes.put("/userstorys/:id", UserStoryController.updateOne);
 routes.delete("/userstorys/:id", UserStoryController.deleteOne);
+routes.get("/userstorys/feature/:id", UserStoryController.indexFeature);
 
-routes.post("/tarefa", TarefaController.store);
-routes.get("/tarefa", TarefaController.show);
-routes.get("/tarefa", TarefaController.showOne);
-routes.put("/tarefa", TarefaController.updateOne);
-routes.delete("/tarefa", TarefaController.deleteOne);
+routes.post("/tarefas", TarefaController.store);
+routes.get("/tarefas", TarefaController.show);
+routes.get("/tarefas", TarefaController.showOne);
+routes.put("/tarefas", TarefaController.updateOne);
+routes.delete("/tarefas", TarefaController.deleteOne);
 
 
 module.exports = routes; 
