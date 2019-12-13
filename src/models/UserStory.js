@@ -8,7 +8,7 @@ const UserStorySchema = new mongoose.Schema({
     descricao: String,
     pontuacao: Number,
     status: String,    
-    feature: Number
+    feature_id: Number
 });
 
 UserStorySchema.plugin(AutoIncrementUserstory, {

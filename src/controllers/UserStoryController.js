@@ -1,5 +1,4 @@
 const UserStory = require('../models/UserStory');
-const Feature = require('../models/Feature');
 
 module.exports = {
     
@@ -40,10 +39,11 @@ module.exports = {
     },
     async show(req, res){
         const userstory = await UserStory.find();           
+        const userstoryCount = await UserStory.count();           
 
         res.setHeader('Access-Control-Expose-Headers', 'Content-Range');
-        res.setHeader('Content-Range', 'userstory 0-24/319');        
-        res.setHeader('X-Total-Count', 5);
+        res.setHeader('Content-Range', 'userstory 0-10/' + userstoryCount);        
+        res.setHeader('X-Total-Count', userstoryCount);
 
         return res.json(userstory);
     },
@@ -51,12 +51,9 @@ module.exports = {
 
         const { id } = req.params;
         
-        const userstory = await UserStory.findOne({ id });           
-
-        res.setHeader('Access-Control-Expose-Headers', 'Content-Range');
-        res.setHeader('Content-Range', 'userstory 0-24/319');        
-        res.setHeader('X-Total-Count', 5);
+        const userstory = await UserStory.findOne({ id });                   
         return res.json(userstory);
+
     },
     async updateOne(req, res){
 
@@ -66,7 +63,7 @@ module.exports = {
             if(err){
                 console.log(err);
                 res.status(500).send();
-            } else {                                
+            } else {                                                
                 userstory.feature_id = feature_id
                 userstory.nome = nome
                 userstory.descricao = descricao 

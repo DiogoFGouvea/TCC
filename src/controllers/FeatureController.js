@@ -22,10 +22,11 @@ module.exports = {
     async show(req, res){
         
         const features = await Feature.find();           
+        const featuresCount = await Feature.count();           
 
         res.setHeader('Access-Control-Expose-Headers', 'Content-Range');
-        res.setHeader('Content-Range', 'features 0-24/319');        
-        res.setHeader('X-Total-Count', 5);
+        res.setHeader('Content-Range', 'features 0-10/' + featuresCount);        
+        res.setHeader('X-Total-Count', featuresCount);
         return res.json(features);
     },
     async showOne(req, res){
@@ -34,9 +35,6 @@ module.exports = {
         
         const features = await Feature.findOne({ id });           
 
-        res.setHeader('Access-Control-Expose-Headers', 'Content-Range');
-        res.setHeader('Content-Range', 'features 0-24/319');        
-        res.setHeader('X-Total-Count', 5);
         return res.json(features);
     },    
     async updateOne(req, res){
