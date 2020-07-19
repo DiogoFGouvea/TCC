@@ -2,34 +2,6 @@
 # yarn lockfile v1
 
 
-"@types/bson@*":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@types/bson/-/bson-4.0.1.tgz#2bfc80819e7055b76d5496d5344ed23e5d12bbb2"
-  integrity sha512-K6VAEdLVJFBxKp8m5cRTbUfeZpuSvOuLKJLrgw9ANIXo00RiyGzgH4BKWWR4F520gV4tWmxG7q9sKQRVDuzrBw==
-  dependencies:
-    "@types/node" "*"
-
-"@types/mongodb@*":
-  version "3.3.12"
-  resolved "https://registry.yarnpkg.com/@types/mongodb/-/mongodb-3.3.12.tgz#c5afa2de5ee5558603ecee8c9366e86e24576703"
-  integrity sha512-gWIdrA8YKC4OetBk4eT5Zsp4p3oy/BJQKt80tXfgPnfBuLigumcmwNZseVSkLQJ3XkN/1OR0/kIunGWlew3rmQ==
-  dependencies:
-    "@types/bson" "*"
-    "@types/node" "*"
-
-"@types/mongoose@^4.0.0 || ^5.0.0":
-  version "5.5.34"
-  resolved "https://registry.yarnpkg.com/@types/mongoose/-/mongoose-5.5.34.tgz#b77fdd8f5a80d1315c47a53d9166c6ff95f63898"
-  integrity sha512-XSXKMIZimxx8q17RGQArawrTVI8021PPbP21WEq71YTUMpVuaJaN9yFQll5KtEif5Jw1cphxEFkNwrDmuG+NFA==
-  dependencies:
-    "@types/mongodb" "*"
-    "@types/node" "*"
-
-"@types/node@*":
-  version "12.12.17"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.17.tgz#191b71e7f4c325ee0fb23bc4a996477d92b8c39b"
-  integrity sha512-Is+l3mcHvs47sKy+afn2O1rV4ldZFU7W8101cNlOd+MRbjM4Onida8jSZnJdTe/0Pcf25g9BNIUsuugmE6puHA==
-
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -431,7 +403,7 @@ debug@3.1.0:
   dependencies:
     ms "2.0.0"
 
-debug@^3.0.0, debug@^3.2.6:
+debug@^3.2.6:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==
@@ -603,11 +575,6 @@ extend-shallow@^3.0.0, extend-shallow@^3.0.2:
   dependencies:
     assign-symbols "^1.0.0"
     is-extendable "^1.0.1"
-
-extend@^3.0.0:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
-  integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
 
 extglob@^2.0.4:
   version "2.0.4"
@@ -1107,9 +1074,9 @@ latest-version@^3.0.0:
     package-json "^4.0.0"
 
 lodash@^4.17.11, lodash@^4.17.14:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 lowercase-keys@^1.0.0:
   version "1.0.1"
@@ -1256,23 +1223,6 @@ mongodb@3.3.5:
     safe-buffer "^5.1.2"
   optionalDependencies:
     saslprep "^1.0.0"
-
-mongoose-auto-increment-reworked@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/mongoose-auto-increment-reworked/-/mongoose-auto-increment-reworked-1.2.1.tgz#9cd92b2de87bd6209bdf582a814ea7dff849bfef"
-  integrity sha512-5ID9oUFsBc5dh+Lv0GSHtcHik9rM0Jw+kl9l0r1WqgFodaii90O9e89YfViwK8aAIZjF2mFQ5CxRshsijvdQYQ==
-  dependencies:
-    "@types/mongoose" "^4.0.0 || ^5.0.0"
-    debug "^3.0.0"
-    tslib "^1.0.0"
-    typescript-lazy-get-decorator "^1.0.0"
-
-mongoose-auto-increment@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/mongoose-auto-increment/-/mongoose-auto-increment-5.0.1.tgz#827e051d9cc371dabe8bff1a704431d341cb79df"
-  integrity sha1-gn4FHZzDcdq+i/8acEQx00HLed8=
-  dependencies:
-    extend "^3.0.0"
 
 mongoose-legacy-pluralize@1.0.2:
   version "1.0.2"
@@ -2055,11 +2005,6 @@ touch@^3.1.0:
   dependencies:
     nopt "~1.0.10"
 
-tslib@^1.0.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
-  integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
-
 type-is@~1.6.17, type-is@~1.6.18:
   version "1.6.18"
   resolved "https://registry.yarnpkg.com/type-is/-/type-is-1.6.18.tgz#4e552cd05df09467dcbc4ef739de89f2cf37c131"
@@ -2067,11 +2012,6 @@ type-is@~1.6.17, type-is@~1.6.18:
   dependencies:
     media-typer "0.3.0"
     mime-types "~2.1.24"
-
-typescript-lazy-get-decorator@^1.0.0:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/typescript-lazy-get-decorator/-/typescript-lazy-get-decorator-1.2.2.tgz#f7ffe9f9225b830f851f2701376409cfd640100e"
-  integrity sha512-XNqWMl2qI2AgQqVoUa7+TJa3J6XUKYOS9kK6HvptL6+uY3r2wjnpFjykA2Y7h5w9TkTV5DY4v5leTOavBEbKcQ==
 
 undefsafe@^2.0.2:
   version "2.0.2"
